@@ -1,0 +1,8 @@
+html ,body{
+    overflow-x: hidden;
+}
+@media(min-width:768px){
+    .hh{
+        color:green;
+    }
+
