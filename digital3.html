@@ -1,0 +1,149 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="digital.css">
+</head>
+<body class="overflow-x-hidden">
+
+    <section class="bg-[#ECBA84] w-[100%] pb-[100px]">
+      <nav>
+            
+        <nav class="pt-[20px]">
+            <div class="max-w-6xl mx-auto px-4">
+              <div class="flex justify-between items-center">
+                <div class="flex space-x-7">
+                  <div class="">
+                    <!-- Website Logo -->
+                    <a href="#" class="">
+                      <img src="digital/W.png" alt="Logo" class="h-7 w-9 relative left-3" >
+                      <img src="digital/V.png" alt="Logo" class="h-5 w-5 z-30 relative bottom-[20px] left-[35px]">
+        
+                    </a>
+        
+                  </div>
+                  <!-- Primary Navbar items -->
+                  <div class="hidden md:flex items-center">
+                    <div class=" xl:ml-[280px] lg:ml-[200px] md:ml-[150px]">
+                    <a href="digital.html" class="py-4 px-5 text-[#5F5F5F] font-semibold hover:shadow-lg hover:transistion-all">Home</a>
+                    <a href="digital2.html" class="py-4 px-5 text-[#5F5F5F] font-semibold hover:shadow-lg hover:transistion-all">Services</a>
+        
+                    <a href="digital3.html" class="py-4 px-5 text-[#5F5F5F] font-semibold hover:shadow-lg hover:transistion-all">Contact us</a>
+                  </div>
+                  </div>
+                </div>
+                <!-- Secondary Navbar items -->
+                <div class="hidden md:flex items-center space-x-3 animate-bounce ">
+              
+                  <a href="" class=" inline-block py-2 px-3 font-medium text-black border border-1 border-black bg-transparent rounded transition duration-300  hover:transition-none"><img class="w-[18px] inline-block mr-2" src="digital/call.png"> Let's Talk</a>
+                </div>
+        
+        
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                  <button class="outline-none mobile-menu-button">
+                  <svg class=" w-6 h-6 text-gray-500 hover:text-white"
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </button>
+                </div>
+              </div>
+            </div>
+            <!-- mobile menu -->
+            <div class="hidden mobile-menu">
+              <ul class="">
+            
+                <li class="active"><a href="digital.html" class="block text-sm px-2 py-4 bg-dark font-semibold">Home</a></li>
+                <li><a href="digital2.html" class="block text-sm px-2 py-4 hover:bg-dark transition duration-300">Services</a></li>
+               
+                <li><a href="digital3.html" class="block text-sm px-2 py-4 hover:bg-dark transition duration-300">Contact Us</a></li>
+              </ul>
+            </div>
+        
+          
+            <script>
+              const btn = document.querySelector("button.mobile-menu-button");
+              const menu = document.querySelector(".mobile-menu");
+        
+              btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+              });
+            </script>
+          </nav>
+      
+  
+        <main>
+            <h1 class="text-center font-bold text-[40px] py-[100px] text-[#1A1A1A]">CONTACT US</h1>
+        </main>
+    </section>
+    <section class="bg-[#F8F8F8] py-[100px]">
+<p class=" font-bold text-[20px] mx-auto text-center mx-[40px] text-[#1A1A1A]"><span class="text-[#FF8500]">Williams Visuals</span> is a digital agency focused on helping teens become better-prepared for their
+future.We work with schools and other entities to provide resources and services that help young
+people learn,grow and connect with each other in positive ways.</p>
+  <!-- https://twitter.com/i/spaces/1yNGaNoEEkdJj -->    
+    </section>
+    <section class="pt-[40px]">
+
+      <h1 class="text-center font-bold text-[#1A1A1A] text-[30px]">Contact Us</h1>
+      <p class="px-[16px] sm:text-center font-bold text-[#1A1A1A] text-[18px] sm:px-[0px] ">We are always here for you.Reach out to us today!!</p>
+      <form class="mx-[10px] sm:mx-auto">
+<input type="text" class="w-full sm:mx-auto sm:w-[500px] mt-[30px] bg-[#DDDDDD] text-black outline-none pl-[6px] py-[8px] block focus:shadow-md" placeholder="Full Name">
+<input type="email" class="w-full sm:mx-auto  sm:w-[500px] mt-[30px]   bg-[#DDDDDD] text-black outline-none pl-[6px] py-[8px] block focus:shadow-md" placeholder="Email Address">
+<input type="email" class="w-full sm:mx-auto pb-[200px]  sm:w-[500px] mt-[30px]   bg-[#DDDDDD] text-black outline-none pl-[6px] py-[8px] block focus:shadow-md" placeholder="Drop a message..">
+
+<div class="bg-[#FFA542] mx-auto w-[100px] rounded mt-[20px] text-white">
+  <p class="text-white font-semibold text-center py-[5px]">Contact us</p>
+</div>
+
+      </form>
+    
+    </section>
+
+  
+              
+    <footer class="flex flex-col justify-around bg-[#202020] mt-[100px] pt-[100px] pb-[100px] sm:flex sm:flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
+      <div class="">
+        <img class=" hidden sm:hidden md:hidden lg:block lg:w-[151px] lg: xl:w-[151px] xl:h-[151px]  " src="digital/Rectangle 7.png">
+        <img class="hidden sm:hidden md:hidden lg:block xl:w-[151px] h-[151px] relative left-[60px] z-40 bottom-[90px]" src="digital/Rectangle 8.png">
+        <img class="hidden sm:hidden md:hidden lg:block lg:w-[171px] lg:h-[171px] lg:relative lg:left-[130px] lg:z-40 lg:bottom-[160px] xl:w-[171px] xl:h-[171px] xl:relative xl:left-[130px] xl:z-40 xl:bottom-[160px]" src="digital/Rectangle 9.png">
+      </div>
+<div class="items-center">
+<h2 class="text-center text-[#C9C9C9] text-[30px] font-bold ">
+Want your kid to be creative?
+</h2>
+<div class="sm:mx-auto md:mx-auto flex border-2 border-red-500 w-[140px] mx-auto mb-[50px] px-3 py-3 rounded-md mt-[20px] bg-red-500 hover:shadow-sm hover:shadow-gray-100/10 ">
+<p class="text-white font-semibold">Get in touch</p>
+<img class="w-[8px] h-[17px] ml-[10px] mt-[4px]" src="digital/Vector.png">
+</div>
+</div>
+<div class="mx-auto sm:mx-auto sm:mt-[40px] md:ml-[0px] md:mx-[0px]">
+<div class="flex">
+<img class="w-[48px] h-[48px] mr-[15px] mt-[4px]" src="digital/slack.png">
+<h1 class="text-[white] text-[42px] font-bold">Slack</h1>
+</div>
+<p class="font-semibold text-white text-[20px] mt-[20px]">We care about details and stuffs</p>
+<p class="font-semibold text-white text-[20px] mt-[10px]">Send us a message or call us</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
